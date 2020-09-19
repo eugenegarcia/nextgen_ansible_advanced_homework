@@ -1,7 +1,6 @@
 ==== Ansible Tower Config
 * From the cloned repo run `site-config-tower.yml` playbook to create job templates and workflow template.
 
-
 [source,text]
 ----
 laptop]# scp -i /home/<username>/.ssh/your-key.pem /home/<username>/.ssh/your-key.pem username-company.name@bastion.<GUID>.example.com:/tmp
@@ -11,7 +10,7 @@ bastion]# cp /tmp/<your-key.pem>  /root/.ssh/mykey.pem
 bastion]# git clone https://github.com/eugenegarcia/nextgen_ansible_advanced_homework.git
 bastion]# cd nextgen_ansible_advanced_homework
 bastion]# source labrc
-bastion]# ansible-playbook   00_main_playbook.yml -e "${GLOBAL_VARS}"
+bastion]# ansible-playbook 00_main_playbook.yml -e "${GLOBAL_VARS}"
 ----
 
 
