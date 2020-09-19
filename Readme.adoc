@@ -1,6 +1,4 @@
 ==== Ansible Tower Config
-
-
 * From the cloned repo run `site-config-tower.yml` playbook to create job templates and workflow template.
 
 
