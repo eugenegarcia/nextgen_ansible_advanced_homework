@@ -19,6 +19,7 @@ bastion]# ansible-playbook 00_main_playbook.yml -e "${GLOBAL_VARS}"
 |===
 | Files or dir | Purpose
 | labrc | File command file to setup variables
+| 00_main_playbook.yml | Playbook to call to deploy the Site.
 | 01_site-setup-workstation.yml | Playbook to call role
 | 02_site-install-isolated-node.yml | Playbook to install isolated node
 | 03_site-setup-openstack.yml | setup openstack env
